@@ -1,0 +1,25 @@
+
+public class Rectangle {
+	
+	public double calculateArea(double length, double width){
+		
+		double area = length * width;
+		
+		return area;
+		}
+	
+	public double calculatePerimeter(double length, double width){
+		
+		double perimeter = 2 * length + 2 * width;
+		
+		return perimeter;
+		}
+
+	public static void main(String[] args){
+		Rectangle formulas = new Rectangle();
+		System.out.println(formulas.calculateArea(5.0, 6.0));
+		System.out.println(formulas.calculatePerimeter(4.0, 3.0));
+	}
+	
+	
+}
